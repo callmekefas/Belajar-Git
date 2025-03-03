@@ -8,23 +8,23 @@ Daftar tugas / branch
 7. Tugas-finalProject
 Daftar perintah GiT
 …
-//membuat branch
+-membuat branch
 git branch Tugas-git
 
-//masuk ke branch
+-masuk ke branch
 git checkout Tugas-git
 
-//membuat file dan mengisi dengan teks
+-membuat file dan mengisi dengan teks
 echo "halo ini git" > Tugas-git.txt
 
-//menambahkan perubahan pada staging area dan commit
+-menambahkan perubahan pada staging area dan commit
 git add Tugas-git
 git commit -m "Menambahkan file Tugas-git.txt"
 
-//melakukan merge ke cabang utama
+-melakukan merge ke cabang utama
 git checkout master
 git merge Tugas-git
 
-//Sinkronisasi repo local ke repo remote di GitHub. (git push)
+-Sinkronisasi repo local ke repo remote di GitHub. (git push)
 git push -u origin Tugas-git
 
